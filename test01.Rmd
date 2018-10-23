@@ -21,7 +21,7 @@ Second, we generate two series with normal distrbution but no correaltion with e
 x1=rnorm(600, mean=10, sd=5)
 y1=rnorm(600, mean=0, sd=2)
 plot(x1,y1, pch=20)
-abline(lm(y1 ~ x1), col="red", lwd=2)
+abline(lm(y1 ~ x1), col="blue", lwd=2)
 grid()
 ```
 
